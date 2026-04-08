@@ -27,30 +27,31 @@ Breve herramienta para visualizar y predecir orbitas de algunos satélites y la 
    git clone [https://github.com/TU_USUARIO/Nexus-Orbital-Tracker.git](https://github.com/TU_USUARIO/Nexus-Orbital-Tracker.git)
    cd Nexus-Orbital-Tracker
 
-Instala las dependencias
+2. Instala las dependencias
 
 Bash
 pip install -r requirements.txt
-Configura tus variables de entorno (¡Importante!)
-Por motivos de seguridad, las API Keys no se incluyen en el código fuente.
 
-Regístrate en N2YO.com y obtén tu API Key gratuita.
+3. Configura tus variables de entorno
 
-Renombra el archivo .env.example a .env.
+4. Regístrate en N2YO.com y obtén tu API Key gratuita.
 
-Edita el archivo .env y pega tu clave secreta:
+6. Renombra el archivo .env.example a .env.
+
+7. Edita el archivo .env y pega tu clave secreta:
 
 Fragmento de código
-N2YO_API_KEY=tu_clave_secreta_aqui
+N2YO_API_KEY=tu_API_aqui
 
-Ejecución del Motor
+8. Ejecución del Motor
 Una vez configurado, lanza la simulación desde tu terminal:
 
 Bash
 python nexus_orbital.py
 El script calculará las órbitas en la consola y abrirá automáticamente la interfaz 3D en tu navegador predeterminado.
 
-Autor
-Creado por [Samuel/SamuelCAat6]
 
+
+
+Creado por [Samuel/SamuelCAat6]
 Datos orbitales cortesía de la API de N2YO y el catálogo de USSPACECOM.
